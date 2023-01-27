@@ -19,12 +19,39 @@
                     color: white;
                 }
         }
-        .footer-copy,
-        .footer-claim {
+        .copy-claim {
             font-family: 'Roboto', sans-serif;
             font-size: 1.4rem;
             line-height: 3rem;
             color: white;
+                .heart {
+                    color: red;
+                }
         }       
-        
+}
+
+@media all and (min-width: 768px) {
+.footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 56px 70px 34px 130px;
+
+        .first-nav {
+            order: 2;
+            text-align: left;
+        }
+
+        .second-nav {
+            order: 3
+        }
+
+        .copy-claim {
+            order: 1;
+            text-align: left;
+        }
+}
+}
+
+@media all and (min-width: 1280px) {
+
 }
