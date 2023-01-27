@@ -1,2 +1,33 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+        .header-menu {
+            display: flex;
+            background-color: #f26002;
+            width: 37px;
+            height: 34px;
+            align-items: center;
+            justify-content: center;
+        }
+    @media all and (min-width: 768px) {
+        .header-menu {
+            width: 41.6px;
+            height: 44px;
+        } 
+        .header-menu-image {
+            width: 15.1px;
+            height: 14px;
+        }
+    }
+    @media all and (min-width: 1280px) {
+        .header-menu {
+            width: 45.1px;
+            height: 44.9px;
+        }
+        .header-menu-image {
+            width: 16.4px;
+            height: 14.3px;
+        }
+    }
 }
