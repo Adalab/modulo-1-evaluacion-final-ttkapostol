@@ -1,2 +1,30 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 465px;
+    background-color: #4a4a4a;
+        .first-nav,
+        .second-nav {
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            line-height: 3rem;
+            color: white;
+                .link {
+                    text-decoration: none;
+                    color: white;
+                }
+        }
+        .footer-copy,
+        .footer-claim {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.4rem;
+            line-height: 3rem;
+            color: white;
+        }       
+        
 }
