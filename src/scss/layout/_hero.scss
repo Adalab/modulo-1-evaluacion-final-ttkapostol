@@ -4,45 +4,60 @@
     transform: translateY(-45px);
     background-image: url(../images/cover.jpeg);
     background-size: cover;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    
-    .hero-article {
-        margin: 314px 0px 157.5px 5px;
+        .hero-article {
+        margin: 314px 0px 10px 5px;
         width: 315px; 
         text-align: center;
         color: white;
-    }
-
-    .hero-title{
-        text-transform: uppercase;
-        font-family: 'Roboto Slab', serif;
-        font-size: 3rem;
-        line-height: 5rem;
-    }
-
-    .hero-img {
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
-    }
-
+            .hero-title {
+                text-transform: uppercase;
+                font-family: 'Roboto Slab', serif;
+                font-weight: bolder;
+                text-shadow: 1px 1px 2px black;
+                font-size: 3rem;
+                line-height: 5rem;
+                margin-bottom: 10px;
+            }    
+            .hero-p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+            }
+            .hero-button {
+                box-sizing: border-box;
+                background-color: white;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                margin: 10px auto 38px auto;
+                    .button-arrow {
+                        margin: 14px auto;
+                    }
+            }
+        }    
+        
     @media all and (min-width: 768px){
+          
         .hero-article {
-            margin: 409px 29px 152px 51px;
+            margin: 409px 29px 10px 51px;
             width: 688px;
                 .hero-title {
                 font-size: 7.5rem;
                 line-height: 10rem;
+                }
             }
         }
-    }
+        
 
     @media all and (min-width: 1280px) {
         .hero-article {
-            margin: 349px 177px 50px 142px;
+            margin: 349px 177px 30px 142px;
             width: 954.8px;
                 .hero-title {
                 font-size: 10rem;
