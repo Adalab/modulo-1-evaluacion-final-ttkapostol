@@ -27,7 +27,8 @@
             .hero-p {
                 font-family: 'Roboto', sans-serif;
                 font-size: 1.6rem;
-                line-height: 1.9rem;
+                line-height: 2rem;
+                margin-bottom: 15px;
             }
             .hero-button {
                 box-sizing: border-box;
@@ -41,29 +42,25 @@
                     }
             }
         }    
-        
     @media all and (min-width: 768px){
-          
         .hero-article {
             margin: 409px 29px 10px 51px;
             width: 688px;
                 .hero-title {
-                font-size: 7.5rem;
-                line-height: 10rem;
+                    font-size: 7.5rem;
+                    line-height: 10rem;
                 }
-            }
         }
         
-
+    }
     @media all and (min-width: 1280px) {
         .hero-article {
             margin: 349px 177px 30px 142px;
             width: 954.8px;
                 .hero-title {
-                font-size: 10rem;
-                line-height: 13.2rem;
+                    font-size: 10rem;
+                    line-height: 13.2rem;
+                }
             }
-        }
     }
-
 }
