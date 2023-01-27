@@ -5,6 +5,7 @@
     align-items: center;
     height: 465px;
     background-color: #4a4a4a;
+                   
         .first-nav,
         .second-nav {
             margin-bottom: 30px;
@@ -43,6 +44,7 @@
 
         .second-nav {
             order: 3
+            /*text-align: left;*/
         }
 
         .copy-claim {
@@ -53,5 +55,12 @@
 }
 
 @media all and (min-width: 1280px) {
-
+.footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 370px;
+            .second-nav {
+                text-align: left;
+                }
+    }
 }
