@@ -10,8 +10,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    /*overflow: hidden;*/
         .hero-article {
-        margin: 314px 0px 10px 5px;
+        margin-bottom: 10px;
         width: 315px; 
         text-align: center;
         color: white;
@@ -28,15 +29,15 @@
                 font-family: 'Roboto', sans-serif;
                 font-size: 1.6rem;
                 line-height: 2rem;
-                margin-bottom: 15px;
-            }
+            }    
             .hero-button {
                 box-sizing: border-box;
                 background-color: white;
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
-                margin: 10px auto 38px auto;
+                margin: 15px auto 40px auto;
+                /*z-index: 1;*/
                     .button-arrow {
                         margin: 14px auto;
                     }
