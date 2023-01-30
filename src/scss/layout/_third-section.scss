@@ -1,15 +1,143 @@
 .third-section {
     padding-top: 29px;
     background-color: #f2f2f2;
-    /*display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 5;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.third-section-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 3rem;
     text-align: center;
-        .third-section-title {
-            /*grid-row: 1fr;*/
+}
+    
+    .first-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .first-article-title {
             font-family: 'Roboto Slab', serif;
             font-weight: 900;
-            font-size: 2rem;
+            font-size: 1.8rem;
             line-height: 3rem;
         }
+        
+        .first-article-p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+        
+    .second-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+            
+        .second-article-title {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 900;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+                    
+        .second-article-p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+        
+    .third-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }            
+            .third-article-title {
+                font-family: 'Roboto Slab', serif;
+                font-weight: 900;
+                font-size: 1.8rem;
+                line-height: 3rem;
+            }
+            
+            .third-article-p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.8rem;
+                line-height: 3rem;
+            }
+            
+    .third-section-button {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        background-color: #f26002;
+        color: white;
+        }
+
+ @media all and (min-width: 768px) {
+    .third-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    }
+
+            .third-section-title {
+                grid-column: span 3;
+                font-size: 2.8rem;
+                line-height: 4.5rem;
+            }
+
+            .first-article-title {
+                font-size: 2.4rem;
+            }
+        
+            .first-article-p {
+                font-size: 2rem;
+            }
+            
+            .second-article {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        
+            .second-article-title {
+                font-size: 1.8rem;
+                line-height: 3rem;
+            }
+    
+                .second-article-p {
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+    
+            .third-article {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                .third-article-title {
+                    /*font-family: 'Roboto Slab', serif;
+                            font-weight: 900;*/
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+    
+                .third-article-p {
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+    
+            .third-section-button {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                /*background-color: #f26002;
+                    color: white;*/
+            }
 }
