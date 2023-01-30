@@ -85,59 +85,46 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     }
-
-            .third-section-title {
-                grid-column: span 3;
-                font-size: 2.8rem;
-                line-height: 4.5rem;
-            }
-
-            .first-article-title {
-                font-size: 2.4rem;
-            }
-        
-            .first-article-p {
-                font-size: 2rem;
-            }
+        .third-section-title {
+            grid-column: span 3;
+            font-size: 2.8rem;
+            line-height: 4.5rem;
+        }
+        .first-article-title {
+            font-size: 2.4rem;
+            margin-bottom: 1.8rem;
+        }
+        .first-article-p {
+            font-size: 2rem;
+        }
             
-            .second-article {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-        
-            .second-article-title {
-                font-size: 1.8rem;
-                line-height: 3rem;
-            }
+        .second-article-title {
+            margin-bottom: 1.8rem;
+            font-size: 2.4rem;
+        }
     
-                .second-article-p {
-                    font-family: 'Roboto', sans-serif;
-                }
-            }
+        .second-article-p {
+            font-size: 2rem;
+        }
+     
+        .third-article-title {
+            font-size: 2.4rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .third-article-p {
+            font-size: 2rem;
+        }
     
-            .third-article {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-    
-                .third-article-title {
-                    /*font-family: 'Roboto Slab', serif;
-                            font-weight: 900;*/
-                    font-size: 1.8rem;
-                    line-height: 3rem;
-                }
-    
-                .third-article-p {
-                    font-family: 'Roboto', sans-serif;
-                }
-            }
-    
-            .third-section-button {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 500;
-                /*background-color: #f26002;
-                    color: white;*/
-            }
+        .third-section-button {
+            grid-column: span 3;
+        }
 }
+
+@media all and (min-width: 1280px) {
+    
+    
+        .third-section-button {
+            
+        }
+    }
