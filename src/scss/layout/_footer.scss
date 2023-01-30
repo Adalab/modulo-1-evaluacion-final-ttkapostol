@@ -5,50 +5,30 @@
     align-items: center;
     height: 465px;
     background-color: #4a4a4a;
-    
-        .div-button{
-            transform: translateY(-25px);
-                .footer-button{
-                    border: solid white;
-                    margin: 0 auto;
+                   
+        .first-nav,
+        .second-nav {
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            line-height: 3rem;
+            color: white;
+                .link {
                     text-decoration: none;
-                    box-sizing: border-box;
-                    background-color: white;
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    margin: 15px auto 40px auto;
-                    /*z-index: 1;*/
+                    color: white;
                 }
         }
-        
-        .section-footer{
-            .first-nav,
-            .second-nav {
-                margin-bottom: 30px;
-                text-transform: uppercase;
-                text-align: center;
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.6rem;
-                line-height: 3rem;
-                color: white;
-                    .link {
-                        text-decoration: none;
-                        color: white;
-                    }
-            }
-            .copy-claim {
-                margin-bottom: 30px;
-                text-align: center;
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.4rem;
-                line-height: 3rem;
-                color: white;
-                    .heart {
-                        color: red;
-                    }
-            }
-        }           
+        .copy-claim {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.4rem;
+            line-height: 3rem;
+            color: white;
+                .heart {
+                    color: red;
+                }
+        }       
 }
 
 @media all and (min-width: 768px) {
