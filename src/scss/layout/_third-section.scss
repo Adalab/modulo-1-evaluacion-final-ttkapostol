@@ -67,10 +67,7 @@
             }  
 
             .third-section-div {
-                .button-link {
-                    text-decoration: none;
-                }
-                .third-section-button {
+                   .third-section-button {
                     display: block;
                     width: 184px;
                     border: solid 3px #f26002;
@@ -81,8 +78,11 @@
                     font-size: 2rem;
                     line-height: 4rem;
                     text-align: center;
-                    color: white;
                     margin: 30px auto 60px auto;
+                    .button-link {
+                            text-decoration: none;
+                            color: white;
+                    }
                 }
             }
 }    
