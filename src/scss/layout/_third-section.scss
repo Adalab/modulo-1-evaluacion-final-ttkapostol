@@ -4,93 +4,90 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
-}
-
-.third-section-title {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 3rem;
-    text-align: center;
-}
-    
-    .first-article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .third-section-title {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
     }
-
-        .first-article-title {
-            font-family: 'Roboto Slab', serif;
-            font-weight: 900;
-            font-size: 1.8rem;
-            line-height: 3rem;
-        }
         
-        .first-article-p {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8rem;
-            line-height: 3rem;
-        }
+        .first-article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                .first-article-title {
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+                .first-article-p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+            }
         
-    .second-article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-            
-        .second-article-title {
-            font-family: 'Roboto Slab', serif;
-            font-weight: 900;
-            font-size: 1.8rem;
-            line-height: 3rem;
-        }
-                    
-        .second-article-p {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8rem;
-            line-height: 3rem;
-        }
-        
-    .third-article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }            
-            .third-article-title {
-                font-family: 'Roboto Slab', serif;
-                font-weight: 900;
-                font-size: 1.8rem;
-                line-height: 3rem;
+        .second-article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                .second-article-title {
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+                .second-article-p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
             }
             
-            .third-article-p {
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.8rem;
-                line-height: 3rem;
-            }
-            
-    .third-section-div {
+        .third-article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                .third-article-title {
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 900;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+                .third-article-p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.8rem;
+                    line-height: 3rem;
+                }
+            }  
+
+            .third-section-div {
+                .button-link {
+                    text-decoration: none;
+                }
                 .third-section-button {
-                display: block;
-                width: 184px;
-                border: solid 3px #f26002;
-                background-color: #f26002;
-                border-radius: 22.5px;
-                font-family: 'Roboto', sans-serif;
-                font-weight: 500;
-                font-size: 2rem;
-                line-height: 4rem;
-                text-align: center;
-                color: white;
-                margin: 30px auto 60px auto;
+                    display: block;
+                    width: 184px;
+                    border: solid 3px #f26002;
+                    background-color: #f26002;
+                    border-radius: 22.5px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 500;
+                    font-size: 2rem;
+                    line-height: 4rem;
+                    text-align: center;
+                    color: white;
+                    margin: 30px auto 60px auto;
+                }
             }
-    }    
+}    
 
- @media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
     .third-section {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -100,32 +97,13 @@
             font-size: 2.8rem;
             line-height: 4.5rem;
         }
-        .first-article-title {
+        .first-article-title, .second-article-title, .third-article-title {
             font-size: 2.4rem;
             margin-bottom: 1.8rem;
         }
-        .first-article-p {
+        .first-article-p, .second-article-p, .third-article-p {
             font-size: 2rem;
         }
-            
-        .second-article-title {
-            margin-bottom: 1.8rem;
-            font-size: 2.4rem;
-        }
-    
-        .second-article-p {
-            font-size: 2rem;
-        }
-     
-        .third-article-title {
-            font-size: 2.4rem;
-            margin-bottom: 1.8rem;
-        }
-
-        .third-article-p {
-            font-size: 2rem;
-        }
-    
         .third-section-div {
             grid-column: span 3;
         }
