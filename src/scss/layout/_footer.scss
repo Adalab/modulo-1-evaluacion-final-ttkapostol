@@ -5,7 +5,27 @@
     align-items: center;
     height: 465px;
     background-color: #4a4a4a;
-                   
+
+    .button-section {
+        transform: translateY(-50px);
+
+        .scroll-up {
+            border: solid white;
+            text-decoration: none;
+            box-sizing: border-box;
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+            .arrow {
+                margin: 7px 7px;
+            }
+        }
+    }
+
+    .footer-section {
+
         .first-nav,
         .second-nav {
             margin-bottom: 30px;
@@ -15,52 +35,54 @@
             font-size: 1.6rem;
             line-height: 3rem;
             color: white;
-                .link {
-                    text-decoration: none;
-                    color: white;
-                }
+
+            .link {
+                text-decoration: none;
+                color: white;
+            }
         }
+
         .copy-claim {
+            text-align: center;
             font-family: 'Roboto', sans-serif;
             font-size: 1.4rem;
             line-height: 3rem;
             color: white;
-                .heart {
-                    color: red;
-                }
-        }       
+
+            .heart {
+                color: red;
+            }
+        }
+    }
 }
 
 @media all and (min-width: 768px) {
-.footer {
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 56px 70px 34px 130px;
+    .footer {
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        padding-bottom: 150px;
 
-        .first-nav {
-            order: 2;
-            text-align: left;
-        }
+        .footer-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 500px;
 
-        .second-nav {
-            order: 3
-            /*text-align: left;*/
-        }
-
-        .copy-claim {
-            order: 1;
-            text-align: left;
-        }
-}
-}
-
-@media all and (min-width: 1280px) {
-.footer {
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 0 370px;
-            .second-nav {
+            .first-nav {
+                order: 2;
                 text-align: left;
-                }
+            }
+
+            .second-nav {
+                order: 3
+                    /*text-align: left;*/
+            }
+
+            .copy-claim {
+                order: 1;
+                text-align: left;
+            }
+        }
+
     }
 }
